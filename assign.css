@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bb.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+#eye{
+    /* width: 25%; */
+    padding-top: 10px;
+    float: right;
+    text-align: center;
+
+}
+.container{
+    /* border: 12px solid white ; */
+    color: black;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: ;
+    /* background: white; */
+
+}
+a{
+    float: right;
+    color: black;
+    color: orangered;
+}
+#sign{
+    text-align: center;
+    float: none;
+    color: orangered;
+}
+.container h1{
+    display: inline-block;
+    font-size: 40px;
+    width: 35%;
+    border-bottom: solid palevioletred;
+    /* margin-top: 10px; */
+    margin-bottom: 11px;
+    padding: 2px 0;
+
+}
+.log i{
+    width: 25px;
+    /* padding: 0 12px; */
+    /* float:left; */
+    text-align: center;
+}
+.log{
+    width: 100%;
+    margin: 18px 0px;
+    border-bottom: 2px solid palevioletred;
+
+
+}
+.log input{
+    width: 70%;
+    /* border: 2px solid palevioletred;
+     */
+     border: none;
+     padding: 5px 10px;
+     background: none;
+     font-weight: 500;
+     outline: none;
+     color: rgb(17, 19, 20);
+     font-size: 20px;
+
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 12px 0;
+    padding: 6px;
+    font-weight: bold;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: palevioletred;
+    padding: 1px 150px;
+    color: black;
+}
+.btn:hover{
+    color: black;
+    background: palegreen;
+}
